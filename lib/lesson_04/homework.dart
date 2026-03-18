@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_final_locals
+
 void main() {
   primitives();
   collections();
@@ -49,7 +51,7 @@ void collections() {
 /// 1. Створи змінну через var — наприклад, місто проживання та зміни її декілька разів (print після кожної зміни)
 /// 2. Створи змінну через final — наприклад, країна
 /// 3. Створи змінну через const — наприклад, кількість днів у тижні
-void varFinalConst() {
+Future<void> varFinalConst() async {
   var city = 'Kyiv';
   print('City: $city');
   city = 'Lviv';
@@ -63,6 +65,7 @@ void varFinalConst() {
 }
 
 /// Завдання 4: Record
+// ignore: lines_longer_than_80_chars
 /// Створи іменований та не іменований (позиційний) record з твоїм ім'ям та віком і виведи обидва поля.
 void record() {
   final personRecord = (name: 'Oleksandr', age: 33);
