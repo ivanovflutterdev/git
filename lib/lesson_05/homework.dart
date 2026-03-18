@@ -36,7 +36,15 @@ void task1() {
 /// Чи менше число за 100.
 /// Чи ділиться число на 5 без залишку.
 /// Виведіть всі результати.
-void task2() {}
+void task2() {
+  final number = 65;
+  final isGreater = number > 50;
+  final isLess = number < 100;
+  final isDiv = number % 5 == 0;
+  print('isGreater: $isGreater');
+  print('isLess: $isLess');
+  print('isDiv: $isDiv');
+}
 
 /// Завдання 3: Логічні оператори
 /// Створіть змінні hasMoney і isStoreOpen (типу bool).
