@@ -71,7 +71,13 @@ void task3() {
 /// Потім створіть ще один тернарний оператор:
 /// Якщо менше 10 — вивести “Дуже холодно”.
 
-void task4() {}
+void task4() {
+  final temperature = 16;
+  final weather = temperature > 25 ? 'Warm' : 'Cold';
+  final cold = temperature < 10 ? 'Very cold' : 'Not very cold';
+  print('Weather: $weather');
+  print('Cold: $cold');
+}
 
 /// Завдання 5: Оператори присвоєння
 /// Використовувати тільки оператори присвоєння (+=, -=, *=, /=)
