@@ -162,7 +162,7 @@ void task7() {
       print('Sunday');
     default:
       print('Invalid day number');
-      if (dayNumber == 6 || dayNumber == 7) {
+      if (dayNumber case 6 || 7) {
         print('Weekend 🎉');
       }
   }
