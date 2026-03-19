@@ -16,10 +16,10 @@ void main() {
 /// - name (String) — твоє ім'я
 /// - isStudent (bool) — чи ти студент
 void primitives() {
-  int age = 33;
-  double height = 1.73;
-  String name = 'Oleksandr';
-  bool isStudent = true;
+  var age = 33;
+  var height = 1.73;
+  var name = 'Oleksandr';
+  var isStudent = true;
   print('Age: $age');
   print('Height: $height m');
   print('Name: $name');
@@ -28,18 +28,19 @@ void primitives() {
 
 /// Завдання 2: Колекції
 /// 1. List — 3 твої улюблені кольори
+// ignore: lines_longer_than_80_chars
 /// 2. Set — 3 унікальні оцінки, спробуй створити перевір print-ми, що вони не виводяться
 /// 3. Map — 3 предмети та їх оцінки
 void collections() {
-  List<String> favoriteColors = ['Blue', 'Black', 'White'];
+  var favoriteColors = <String>['Blue', 'Black', 'White'];
   print('Favorite Colors: $favoriteColors');
 
-  Set<int> uniqueGrades = {5, 4, 3};
+  var uniqueGrades = <int>{5, 4, 3};
   print('Unique Grades: $uniqueGrades');
   uniqueGrades.add(5);
   print('Unique Grades after adding duplicate: $uniqueGrades');
 
-  Map<String, int> subjectsGrades = {
+  var subjectsGrades = <String, int>{
     'Math': 5,
     'Science': 4,
     'Literature': 3
@@ -48,6 +49,7 @@ void collections() {
 }
 
 /// Завдання 3: var, final, const
+// ignore: lines_longer_than_80_chars
 /// 1. Створи змінну через var — наприклад, місто проживання та зміни її декілька разів (print після кожної зміни)
 /// 2. Створи змінну через final — наприклад, країна
 /// 3. Створи змінну через const — наприклад, кількість днів у тижні
