@@ -177,6 +177,8 @@ void task8() {
   var sum = 0;
   for (var i = 1; i <= 10; i++) {
     print(i);
+  }
+  for (var i = 1; i <= 10; i++) {
     if (i % 2 == 0) {
       print('Even number: $i');
     }
@@ -192,7 +194,18 @@ void task8() {
 /// Якщо число парне — вивести “Парне число: …”,
 /// якщо непарне — “Непарне число: …”.
 
-void task9() {}
+void task9() {
+  var numbers = 10;
+  do {
+  if (numbers % 2 == 0) {
+    print('Even number: $numbers');
+  } else {
+    print('Odd number: $numbers');
+  }
+  numbers--;
+  }
+  while (numbers > 0);
+  }
 
 /// Завдання 10: Break і Continue
 /// Створіть цикл for від 1 до 20.
