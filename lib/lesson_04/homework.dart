@@ -1,3 +1,7 @@
+
+
+// ignore_for_file: lines_longer_than_80_chars, prefer_final_locals, omit_local_variable_types
+
 // ignore_for_file: prefer_final_locals
 
 void main() {
@@ -40,11 +44,7 @@ void collections() {
   uniqueGrades.add(5);
   print('Unique Grades after adding duplicate: $uniqueGrades');
 
-  var subjectsGrades = <String, int>{
-    'Math': 5,
-    'Science': 4,
-    'Literature': 3
-  };
+  Map<String, int> subjectsGrades = {'Math': 5, 'Science': 4, 'Literature': 3};
   print('Subjects and Grades: $subjectsGrades');
 }
 
@@ -57,7 +57,7 @@ Future<void> varFinalConst() async {
   var city = 'Kyiv';
   print('City: $city');
   city = 'Lviv';
-  print('City: $city'); 
+  print('City: $city');
   city = 'Odesa';
   print('City: $city');
   final country = 'Ukraine';
