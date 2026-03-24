@@ -2,7 +2,6 @@
 
 // ignore_for_file: lines_longer_than_80_chars, prefer_final_locals, omit_local_variable_types
 
-// ignore_for_file: prefer_final_locals
 
 void main() {
   primitives();
@@ -32,7 +31,6 @@ void primitives() {
 
 /// Завдання 2: Колекції
 /// 1. List — 3 твої улюблені кольори
-// ignore: lines_longer_than_80_chars
 /// 2. Set — 3 унікальні оцінки, спробуй створити перевір print-ми, що вони не виводяться
 /// 3. Map — 3 предмети та їх оцінки
 void collections() {
@@ -49,7 +47,7 @@ void collections() {
 }
 
 /// Завдання 3: var, final, const
-// ignore: lines_longer_than_80_chars
+
 /// 1. Створи змінну через var — наприклад, місто проживання та зміни її декілька разів (print після кожної зміни)
 /// 2. Створи змінну через final — наприклад, країна
 /// 3. Створи змінну через const — наприклад, кількість днів у тижні
@@ -67,7 +65,6 @@ Future<void> varFinalConst() async {
 }
 
 /// Завдання 4: Record
-// ignore: lines_longer_than_80_chars
 /// Створи іменований та не іменований (позиційний) record з твоїм ім'ям та віком і виведи обидва поля.
 void record() {
   final personRecord = (name: 'Oleksandr', age: 33);
