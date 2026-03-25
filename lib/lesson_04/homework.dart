@@ -1,3 +1,5 @@
+// ignore_for_file: lines_longer_than_80_chars, omit_local_variable_types, prefer_final_locals
+
 void main() {
   primitives();
   collections();
